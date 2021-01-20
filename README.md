@@ -42,5 +42,5 @@ The button apps that are included in this release are listed below.
 
 ## GitHub
 
-This project can be found on GitHub at Path Finder Button Apps.
+This project can be found on GitHub at [Path Finder_Button_Apps](https://github.com/mark-ingenosity/PathFinder_Button_Apps)
 
