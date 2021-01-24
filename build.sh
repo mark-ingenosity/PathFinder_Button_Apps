@@ -68,6 +68,7 @@ done
 # Copy default docs
 if [ -f README.md ]; then cp README.md "${target_path}/"; fi
 if [ -f INSTALL.md ]; then cp INSTALL.md "${target_path}/"; fi
+if [ -f CHANGELOG.md ]; then cp CHANGELOG.md "${target_path}/"; fi
 
 # make the target if required
 if [ -f makefile ]; then
