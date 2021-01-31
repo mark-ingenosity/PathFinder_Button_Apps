@@ -34,7 +34,7 @@ target_path="build/${target}"
 if [ -d "${target_path}" ]; then rm -rf "${target_path}"; fi
 
 # make sure we have some source code to work with ;-)
-if [ ! -d ${app_src} ] || [ ! "$(ls -A ${app_src})" ]; then
+if [ ! -d "src" ] || [ ! "$(ls -A src)" ]; then
 	echo "aborting: no source found for project."
 	exit
 fi
@@ -82,14 +82,16 @@ fi
 if [ $archive == true ]; then
 	echo -e "  creating target archive ${project}.zip"
 	pushd "${working_path}" > /dev/null 2>&1
+	find . -name '*DS_Store' -type f -delete
 	zip -r -q "../${project}.zip" *
 	popd  > /dev/null 2>&1
   # remove the temp files
 	rm -rf "${working_path}"
 fi
 
-# Cleanup any old stuff in the target
+# Cleanup
 #rsync --recursive --delete --ignore-existing --existing --prune-empty-dirs --verbose . "${target_path}/"
+find . -name '*DS_Store' -type f -delete
 
 echo Done
 
