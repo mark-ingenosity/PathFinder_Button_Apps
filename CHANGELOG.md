@@ -17,7 +17,7 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.0.0/)
 
 - Updated README.md. Bump version to v.1.0.0-b1
 
-### [intermediate commit] - 2021-01-23
+### [commit] - 2021-01-23
 
 #### `Added`
 
@@ -26,6 +26,19 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.0.0/)
 #### `Changed`
 
 - Update build.sh
+
+### [commit] - 2021-01-31
+
+#### `Changed`
+
+- Update build.sh: Modified build script test for src folder. Updated Path Finder Root work…
+- Update Path Finder Root workflow zip archive to add internal applet icon
+
+### [commit] - 2021-02-10
+
+#### `Changed`
+
+- Update build.sh: Made the sourcing of build.inc optional
 
 
 

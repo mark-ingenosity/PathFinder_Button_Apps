@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 
+###################################################################
+# build.sh
+# Project build script:
+#   - Calls makefile or makefile.sh depending on build preferences
+#   - Sources optional file build.inc which can contain other
+#     functions necessary for the build process.
+###################################################################
+
 # Build parameters
 project="Pathfinder-Button-Apps"
 proj_type="applescript"
@@ -8,9 +16,8 @@ dbg_path="build/debug"
 app_src="src/apps"
 wflow_src="src/wflow"
 
-# source helper resources
-if [ ! -f build.inc ]; then echo "build.inc not found"; exit; fi
-source build.inc
+# source helper resources if defined
+if [ -f build.inc ]; then source build.inc; fi
 
 # Project content to be copied to build target
 declare -a proj_content=( "doc" "resources/*" "example" "src/config/*" "src/scripts/*" )
