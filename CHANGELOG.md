@@ -40,7 +40,20 @@ The format is based on [Keep a Changelog] (https://keepachangelog.com/en/1.0.0/)
 
 - Update build.sh: Made the sourcing of build.inc optional
 
+### [v.1.0.0-b2] - 2021-02-20
 
+#### `Added`
+
+- Added new `Compare`button app: Runs diff tool on selections made in the same browser rather than the native comparison command which requires that two items be selected in two opposite browsers. Reduces diff operation steps by 2x
+
+#### `Changed`
+
+- Changed `Links There` icon to something that  looks a bit more like other native buttons
+- Updated README.md to reflect addition of new `Compare` button app.
+- Updated CHANGELOG.md (this file)
+- Bump version to v.1.0.0-b2
+
+### 
 
 ### Key ###
 

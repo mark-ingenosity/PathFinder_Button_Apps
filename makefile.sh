@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Button Apps to build
-declare -a apps=( "Cmdr-One Here" "fman Here" "Links There" "Tab There" "Tab Here" )
+declare -a apps=( "Cmdr-One Here" "fman Here" "Links There" "Tab There" "Tab Here" "Compare")
 declare -a wflows=( "Path Finder Root" )
 
 make_release () {

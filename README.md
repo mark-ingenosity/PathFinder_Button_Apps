@@ -31,6 +31,7 @@ The button apps that are included in this release are listed below.
 |     `Tab Here`     | In <u>single</u> or <u>dual</u> browser mode, opens a new tab in the <u>current</u> brower at either 1) the path of the current browser location or 2) the path of a selected folder in the current browser |
 |    `Tab There`     | In <u>dual</u> browser mode, opens a new tab in the <u>opposite</u> browser at either 1) the path of the current browser location or 2) the path of a selected folder in the current browser |
 |   `Links There`    | Creates symbolic links in the opposite browser for selections made in the current browser |
+|     `Compare`      | Runs diff tool on selections made in the same browser rather than the native comparison command which requires that two items be selected in two opposite browsers. Reduces diff operation steps by 2x |
 | `Path_Finder_Root` | Launches  a new Path Finder instance as superuser (root). Can be dangerous (see note below). |
 |    `fman Here`     | Launches the file manager `fman`on the current browser path  |
 |  `Cmdr-One Here`   | Launches the file manager `Commander-One`on the current browser path |
